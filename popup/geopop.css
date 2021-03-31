@@ -1,0 +1,47 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#bodybg {
+    background: url(daybackground.png) no-repeat;
+}
+
+html, body {
+width: 280px;
+height: 350px;
+overflow: hidden;
+margin: auto;
+padding-top: 20px;
+}
+
+.temperature {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  font-size: 2em;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.localization {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  color: #2c3e50;
+}
+
+.weatherlogo {
+  display: flex;
+  margin: auto;
+}
+.time {
+  margin-top: -20px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  text-transform: capitalize;
+  color: #2c3e50;
+}
+
