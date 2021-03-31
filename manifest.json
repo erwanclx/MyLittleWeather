@@ -5,7 +5,7 @@
     "version": "1.0",
   
     "description": "Ouvre un menu qui affiche la température du jour.",
-    "homepage_url": "https://github.com/erwanclx/",
+    "homepage_url": "https://github.com/erwanclx/MyLittleWeather",
     "icons": {
       "48": "icon.svg"
     },
